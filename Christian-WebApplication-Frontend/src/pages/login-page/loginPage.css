@@ -1,0 +1,44 @@
+#login-root button, .nav-link {
+    transition: all 0.25s ease-out;
+    border: none;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #b89769;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+#login-root button:hover, .nav-link:hover {
+    transition: all 0.25s ease-out;
+    background-color: #705838;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+}
+
+#login-root input {
+    transition: all 0.25s ease-out;
+    padding: 15px 20px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#login-root input:focus {
+    outline: none;
+}
+
+#login-root {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    text-align: center;
+}

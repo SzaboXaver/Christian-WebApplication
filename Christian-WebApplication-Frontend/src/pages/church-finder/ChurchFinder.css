@@ -1,0 +1,85 @@
+body {
+    background-color: white;
+}
+
+button {
+    transition: all 0.25s ease-out;
+    background-color: white;
+    border: solid 1px blue;
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: all 0.25s ease-out;
+    background-color: rgb(49, 145, 190);
+    color: white;
+    box-shadow: 2px 2px 20px blue;
+}
+
+input {
+    padding: 15px 20px;
+    padding-left: 5px;
+    border: solid 1px;
+    width:  100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.selected {
+    background: rgba(60, 140, 220, 0.5);
+    border-color: #4b9bea;
+    color: white;
+}
+
+.button-panel {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+}
+
+
+.searchArea {
+    font-size: 15px;
+    width: 20%;
+    margin-left: 1%;
+}
+
+.searchArea input {
+    max-width: 88%;
+    padding: 15px 0px;
+    padding-left: 5px;
+}
+
+.searchArea .searchBtn {
+    width: 90%;
+    padding: 15px 0px;
+}
+
+.result-area {
+    overflow-y: auto;
+    max-width: 50%;
+}
+
+.result-list {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+}
+
+.result-item {
+    
+}

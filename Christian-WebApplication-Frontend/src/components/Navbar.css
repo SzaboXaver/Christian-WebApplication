@@ -1,0 +1,39 @@
+ul {
+    margin-top: auto;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    background-color: rgb(37, 73, 141);
+    justify-content: space-evenly;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 15px 0px;
+}
+
+ul li .nav-link-li {
+    transition: all 0.25s ease-out;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(37, 73, 141);
+    padding: 15px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ul li .nav-link-li:hover {
+    transition: all 0.25s ease-out;
+    background-color: rgb(23, 183, 231);
+    color: black;
+}
+
+ul li .nav-link-li.active {
+    background-color: rgb(23, 183, 231);
+    color: black;
+}
