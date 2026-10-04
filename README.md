@@ -1,6 +1,6 @@
 # Christian-WebApplication
 
-The project in this repository is called *Christian-WebApplication*. This project uses **TypeScript** as foundation, **NodeJS** for the backend and **React** for my frontend side. I used **Supabase** for my database. The project also uses the OSM (Open Street Map) as the map engine, and also the Overpass and the Nominatim databases.
+The project in this repository is called *Christian-WebApplication*. This project uses **TypeScript** as foundation, **NodeJS** for the backend and **React** for the frontend side. I used **Supabase** for my database. The project also uses the OSM (Open Street Map) as the map engine, and also the Overpass and the Nominatim databases.
 
 **!WARNING!** In the alpha and beta versions, I directly removed the database's publishable key and the project URL. This is because in these versions the website isn't ready for public usage! Thank you for your understanding!
 
